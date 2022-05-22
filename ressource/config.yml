@@ -29,9 +29,23 @@ chat_color:
   enable: true
   permission: "ondaria.chat.color"
 
+
+chat_mute:
+  enable: true
+  permission: "ondaria.chat.mute"
+  permission_bypass: "ondaria.chat.mute.bypass"
+
+
+
+
+
 message:
   chat_clear:
     clear: "Le chat a été clear !"
   chat_dm:
     no_player_found: "le joueur n'est pas en ligne !"
     ignored: "Ce joueur vous avez ignorez"
+  chat_mute:
+    ismuted: "Le chat est mute"
+    mute: " vous avez mute le chat"
+    unmute: "Vous avez démute le chat"

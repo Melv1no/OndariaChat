@@ -1,9 +1,6 @@
 <component name="libraryTable">
   <library name="mohist-1.12.2-320-server">
-    <CLASSES>
-      <root url="jar://$PROJECT_DIR$/../../Serveur/mohist-1.12.2-320-server.jar!/" />
-      <root url="jar://$PROJECT_DIR$/../../Serveur/plugins/PlaceholderAPI-2.11.1.jar!/" />
-    </CLASSES>
+    <CLASSES />
     <JAVADOC />
     <SOURCES />
   </library>

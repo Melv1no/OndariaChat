@@ -1,5 +1,6 @@
 package fr.ondaria.chat;
 
+import fr.ondaria.chat.commands.CChatMute;
 import fr.ondaria.chat.commands.CClearChat;
 import fr.ondaria.chat.commands.CPrivateMessage;
 import fr.ondaria.chat.listener.PlayerChatEventListener;
@@ -34,6 +35,8 @@ public class OndariaChat extends JavaPlugin {
         if(getConfig().getBoolean("chat_dm.enable")){Bukkit.getPluginCommand("msg").setExecutor(new CPrivateMessage());Bukkit.getPluginCommand("r").setExecutor(new CPrivateMessage());  privateMessageManager = new PrivateMessageManager();}
 
         if(getConfig().getBoolean("chat_color.enable")){Bukkit.getPluginManager().registerEvents(new PlayerChatEventListener(), this);}
+
+        if(getConfig().getBoolean("chat_mute.enable")){Bukkit.getPluginCommand("").setExecutor(new CChatMute());}
     }
 
     @Override
