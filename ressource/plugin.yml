@@ -1,0 +1,30 @@
+name: OndariaChat
+
+depend: [PlaceholderAPI]
+
+authors:
+  - Ondaria
+  - Melv1n
+version: 1.0.0.0
+
+main: fr.ondaria.chat.OndariaChat
+
+commands:
+
+  ondariachat:
+
+    aliases:
+      - oc
+      - ondachat
+      - ondac
+
+  clearchat:
+    aliases:
+      - cc
+      - clearc
+
+  msg:
+    aliases:
+      - m
+      - dm
+  r:

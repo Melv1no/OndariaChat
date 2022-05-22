@@ -1,0 +1,10 @@
+<component name="ArtifactManager">
+  <artifact type="jar" name="OndariaChat">
+    <output-path>$PROJECT_DIR$/../../Serveur/plugins</output-path>
+    <root id="archive" name="OndariaChat.jar">
+      <element id="module-output" name="OndariaChat" />
+      <element id="library" level="project" name="mohist-1.12.2-320-server" />
+      <element id="dir-copy" path="$PROJECT_DIR$/ressource" />
+    </root>
+  </artifact>
+</component>

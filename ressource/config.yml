@@ -1,0 +1,37 @@
+plugin:
+  enable: true
+  prefix: ""
+
+chat_formatting:
+  default: "{luckperms_prefix} &7{playername} &e>> &f{message}"
+
+
+chat_staff:
+  enable: true
+  prefix_chat: "&eOndaStaff &7>> &e"
+  prefix: "@"
+  permission: "ondaria.chat.chatstaff"
+
+
+chat_clear:
+  enable: true
+  permission: "ondaria.chat.clear"
+
+
+chat_dm:
+  enable: true
+  # /msg pseudo message || /r reponse
+  received: "[ {player} > Vous ] >> {message}"
+  sent: "[ Vous > {player} ] >> {message}"
+
+
+chat_color:
+  enable: true
+  permission: "ondaria.chat.color"
+
+message:
+  chat_clear:
+    clear: "Le chat a été clear !"
+  chat_dm:
+    no_player_found: "le joueur n'est pas en ligne !"
+    ignored: "Ce joueur vous avez ignorez"
